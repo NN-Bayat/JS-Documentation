@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    font-size: large;
+    font-family: arial;
+    font-weight: lighter;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    width: 100%;
+}
+
+#navbar {
+    position: fixed;
+    /* Fix the navbar */
+    top: 0;
+    /* Stick to the top */
+    left: 0;
+    /* Stick to the left */
+    display: flex;
+    flex-direction: column;
+    width: 19%;
+    height: 100vh;
+    /* Full viewport height */
+    border-right: 3px solid gray;
+    font-family: arial;
+    font-size: medium;
+    background-color: white;
+    /* Ensure it doesn't inherit content-side background */
+}
+
+#navbar h1 {
+    font-weight: normal;
+    font-size: 29px;
+    padding-left: 32px;
+    padding-top: 16px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+#navbar a {
+    width: 90%;
+    padding: 4% 0% 5% 10%;
+    text-decoration: none;
+    color: rgb(92, 92, 84);
+    border-top: 1px solid rgb(96, 91, 91);
+}
+
+.content-side {
+    width: 80%;
+    margin-left: 20%;
+    justify-content: start;
+    padding-right: 4%;
+}
+
+.content-side p,
+ul {
+    line-height: 25px;
+    letter-spacing: 0.03rem;
+    color: rgb(84, 79, 79);
+    font-size: 15px;
+    padding-left: 35px;
+}
+
+.content-side h1 {
+    font-weight: lighter;
+    padding-top: 17px;
+    padding-left: 20px;
+}
+
+.content-side ul {
+    margin-left: 65px;
+    line-height: 25px;
+}
+
+.content-side ul li {
+    padding-top: 10px;
+}
+
+.codes{
+    background-color: rgb(245, 245, 245);
+    font-size: medium;
+    font-family: monospace;
+    border-radius: 5px;
+    padding: 12px;
+    line-height: 25px;
+    margin-left: 45px;
+    color: rgb(92, 81, 81);
+}
